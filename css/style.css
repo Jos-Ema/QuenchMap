@@ -102,6 +102,12 @@
     padding: 20px 0;
     color: var(--bs-dark);
 }
+.navbar-light:not(.sticky-top) .navbar-nav .nav-link,
+.navbar-light:not(.sticky-top),
+.navbar-light:not(.sticky-top) .nav-select,
+.navbar-light:not(.sticky-top) .navbar-toggler .fa-bars {
+    color: #000 !important;
+}
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
